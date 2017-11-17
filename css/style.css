@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif; }
+
+body {
+  height: 85vh;
+  background: #f3f1f1; }
+
+header {
+  background: red;
+  width: 100%;
+  height: 60px;
+  position: relative; }
+  header .logo {
+    position: absolute;
+    left: 0; }
+    header .logo img {
+      width: 100%; }
+  header .main-nav {
+    right: 0;
+    position: absolute; }
+    header .main-nav ul {
+      width: 400px;
+      margin: 0;
+      padding: 0; }
+      header .main-nav ul li {
+        width: 100px;
+        display: inline;
+        padding: 1em;
+        line-height: 60px; }
+        header .main-nav ul li:hover {
+          background: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(165, 165, 165, 0.42)); }
+        header .main-nav ul li a {
+          text-decoration: none;
+          color: black; }
+          header .main-nav ul li a:hover .plus-icon {
+            background-color: yellow;
+            opacity: .4; }
+          header .main-nav ul li a .plus-icon {
+            padding: .16em .2em .2em .25em;
+            background: teal;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            margin-right: 4px;
+            transition: ease-in .3s; }
+
+main {
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100%;
+  min-width: 100%;
+  display: flex;
+  align-items: stretch;
+  position: relative; }
+  main h1 {
+    text-align: center;
+    position: absolute;
+    top: 0; }
+
+aside {
+  border: solid 1px black;
+  float: left;
+  width: 20%;
+  position: relative; }
+  aside .schools-title {
+    display: block;
+    width: 100%;
+    padding: .8em;
+    background: gray; }
+    aside .schools-title h2 {
+      margin: 0;
+      text-align: center; }
+  aside .left-nav {
+    padding: 1em; }
+  aside nav {
+    position: relative;
+    display: block;
+    overflow: auto;
+    background: teal; }
+    aside nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0; }
+      aside nav ul li {
+        border: solid 1px black;
+        padding: .4em .4em .4em .8em; }
+        aside nav ul li a {
+          text-decoration: none;
+          color: black; }
+        aside nav ul li:nth-child(2n +1) {
+          background-color: lightgray; }
+
+.form-area {
+  width: 700px;
+  height: 500px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center; }
+  .form-area form {
+    background: white;
+    border: solid 1px #cccccc;
+    box-shadow: rgba(211, 211, 211, 0.408) 3px 3px 3px;
+    padding: 2em;
+    border-radius: 5px; }
+  .form-area .form-group {
+    margin: 20px 0; }
+    .form-area .form-group select {
+      border: none;
+      border-bottom: 1px black solid; }
+    .form-area .form-group label {
+      font-weight: bold;
+      margin-right: 5px; }
+    .form-area .form-group input {
+      border-radius: 5px;
+      float: right;
+      border: none;
+      border-bottom: solid 2px lightgray; }
+    .form-area .form-group p {
+      text-align: center; }
+      .form-area .form-group p a {
+        text-decoration: none;
+        color: red;
+        text-align: center; }
+  .form-area .submit-btn {
+    background: teal;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-left: 0;
+    display: block;
+    margin: auto; }
+
+section {
+  float: left;
+  width: 80%;
+  background: pink;
+  border: solid 1px black;
+  padding: 1em; }
+  section .btn {
+    padding: .2em .4em;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: .3s ease-in-out; }
+    section .btn:hover {
+      color: gray;
+      box-shadow: rgba(24, 24, 24, 0.115) 2px 4px 3px; }
+    section .btn a {
+      color: black;
+      text-decoration: none;
+      font-weight: bold; }
+  section .add-btn {
+    background: green; }
+  section .list-btn {
+    background: yellow;
+    margin-left: 15px; }
+
+table {
+  border-collapse: collapse;
+  width: 100%; }
+  table th {
+    font-weight: bold;
+    text-align: left; }
+  table .student-info {
+    padding: .4em;
+    height: 40px; }
+    table .student-info:nth-child(1n + 1) {
+      background-color: lightblue; }
+    table .student-info td {
+      padding: .2em .4em; }
+  table .delete-student-btn {
+    background: white;
+    border: none;
+    padding: .3em;
+    width: 70px;
+    border-radius: 5px;
+    box-shadow: #00000030 3px 3px 3px;
+    color: red; }
+
+footer {
+  clear: both;
+  background: green;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px; }
+  footer p {
+    line-height: 80px;
+    margin: 0; }
+
+/*# sourceMappingURL=style.css.map */
