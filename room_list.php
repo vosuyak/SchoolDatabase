@@ -65,23 +65,22 @@ $statement3->closeCursor();
     <aside>
         <div class="left-nav">
             <div class="schools-list">
-                <h2>Title</h2>
+                <h2 style="color:white;text-align:center;">Add Room</h2>
             </div>
             <form action="add_room.php" method="post"
                 id="add_categoy.php">
 
-                <label>Name:</label>
                 <input type="text" name="roomName">
-                <input type="submit" value="Add"><br>
+                <input class="list-btn" type="submit" value="Add"><br>
 
             </form>
         </div>
-        <p><a href="index.php">List students</a></p>
+        <button class="list-btn btn"><a style="text-decoration:none; color:black;" href="index.php">List rooms</a></button>
     </aside>
 
 
     <section>
-        <h2>Category List</h2>
+        <h2>Room List</h2>
         <table>
             <tr>
                 <th>Name</th>
@@ -97,7 +96,7 @@ $statement3->closeCursor();
                         <form action="delete_room.php" method="post">
                             <input type="hidden" name="room_id"
                                 value="<?php echo $category['roomID']; ?>">
-                            <input type="submit" value="Delete">
+                            <input class="delete-student-btn" type="submit" value="Delete">
                         </form>
                     </td>
                 </tr>
@@ -111,8 +110,5 @@ $statement3->closeCursor();
 
     </main>
 
-    <footer>
-        <p>&copy; <?php echo date("Y"); ?> Schools</p>
-    </footer>
 </body>
 </html>

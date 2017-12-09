@@ -21,6 +21,5 @@
         <p>There was an error connecting to the database.</p>
     </main>
 
-    <?php include 'php/footer.php'?>
 </body>
 </html>

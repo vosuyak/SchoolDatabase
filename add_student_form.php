@@ -27,11 +27,11 @@ require('php/database.php');
 
     <!-- This is the main content -->
     <main class="form-area">
-        <h1>Title</h1>        
+        <h1 style="position:absolute;">Add Student</h1>        
         <form action="add_student.php" method="post"
               id="add_student_form">
             <div class="form-group">
-                        <label>Category:</label>
+                        <label>Room:</label>
                         <select name="room_id">
                         <?php foreach ($rooms as $room) : ?>
                             <option value="<?php echo $room['roomID']; ?>">
@@ -50,7 +50,7 @@ require('php/database.php');
                             <input type="text" name="name"><br>
                 </div>
                 <div class="form-group">
-                            <label>Year:</label>
+                            <label>Age:</label>
                             <input type="text" name="price"><br>
                 </div>
                 <div class="form-group">
@@ -63,8 +63,5 @@ require('php/database.php');
                 </div>
         </form>
     </main>
-    <footer>
-        <p>&copy; <?php echo date("Y"); ?> School Database</p>
-    </footer>
 </body>
 </html>

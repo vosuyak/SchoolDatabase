@@ -1,7 +1,4 @@
 <header>
-        <div class="logo">
-            <img src="/images/school-logo.png" alt="School logo">
-        </div>
         <!-- navigation  -->
         <nav class="main-nav">
             <ul>

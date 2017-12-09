@@ -21,8 +21,5 @@
         <p><?php echo $error; ?></p>
     </main>
 
-    <footer>
-        <p>&copy; <?php echo date("Y"); ?> Schools</p>
-    </footer>
 </body>
 </html>

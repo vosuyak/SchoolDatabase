@@ -17,10 +17,21 @@
 
     <!-- This is the main content -->
     <main>
-        <article>
-            <p>polaroid McSweeney's organic lomo master cleanse pickled heirloom slow-carb pop-up chia Intelligentsia swag bitters fanny pack banjo direct trade  locavore cardigan yr Truffaut drinking vinegar PBR&B scenester iPhone mumblecore chillwave post-ironic cray 90's deep v vegan ennui American Apparel VHS Tonx kitsch artisan Pitchfork Etsy squid trust fund craft beer semiotics put a bird on it quinoa single-origin coffee paleo whatever tofu try-hard YOLO beard crucifix Wes Anderson kale chips cliche asymmetrical hoodie lo-fi fap keytar four loko meh narwhal fashion axe sriracha you probably haven't heard of them roof party Marfa DIY cred small batch mlkshk next level readymade sartorial aesthetic XOXO bespoke hashtag street art literally Blue Bottle authentic kogi pour-over blog Portland raw denim church-key food truck dreamcatcher Banksy skateboard gluten-free pork belly irony cornhole forage distillery wayfarers Brooklyn Helvetica 8-bit PBR vinyl retro Bushwick messenger bag photo booth Thundercats shabby chic chambray art party tattooed keffiyeh Godard Odd Future jean shorts bicycle rights brunch Kickstarter Schlitz flannel wolf selfies Austin disrupt selvage ethical mustache Williamsburg seitan Echo Park letterpress sustainable typewriter viral twee pug occupy stumptown before they sold out leggings tousled +1 actually freegan normcore Vice farm-to-table Tumblr hella High Life flexitarian Shoreditch tote bag Pinterest meggings ugh gastropub gentrify fingerstache umami synth Cosby sweater fixie Neutra plaid Carles salvia butcher 3 wolf moon biodiesel mixtape banh mi</p>
+        <article class="about-page">
+        
+        <h1>History of Illinois State University</h1>
+        
+        <p>Illinois State University (ISU), founded in 1857 as Illinois State Normal University, is the oldest public university in Illinois and is located in Normal, Illinois. The University emphasizes teaching and is recognized as one of the top ten largest producers of teachers in the US according to the American Association of Colleges of Teacher Education.The University's athletic teams are members of the Missouri Valley Conference and the Missouri Valley Football Conference and are known as the "Redbirds," in reference to the state bird, the cardinal.</p>
+        
+        <h1>How to Add Student</h1>
+        
+        <p>To add a student into the data base is simple and fun! Simply navigate your way to the upper left part of your browser, and on the navigation barf you will see a plus icon that says "add student" once found click on it. This will take you to the page that will require you to fill in some information about the student. The information required is class, ulid, name, and year. Thats it! click the button that says "add student and your finished!</p>
+        
+        <h1>How to Remove Student </h1>
+        
+        <p>To remove a student it is as simple as clicking on the student tab in the navigation bar. Once there you can view the student you want to delete and click the delete button. Fantastic, you have just deleted a student! </p>
+        
         </article>
     </main>
-        <?php include 'php/footer.php';?>
     </body>
 </html>

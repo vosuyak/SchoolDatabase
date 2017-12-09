@@ -27,16 +27,16 @@ INSERT INTO rooms VALUES
 (3, 'TEC 313');
 
 INSERT INTO students VALUES
-(1, 1, '87560000', 'Fender Stratocaster', 'Sr.'),
-(2, 1, '87560010', 'Gibson Les Paul', 'Sr.'),
-(3, 1, '87560020', 'Gibson SG', 'Sr.'),
-(4, 1, '87560030', 'Yamaha FG700S', 'Sr.'),
-(5, 1, '87560040', 'Washburn D10S', 'Sr.'),
-(6, 1, '87560050', 'Rodriguez Caballero 11', 'Sr.'),
-(7, 2, '87560060', 'Fender Precision', 'Sr.'),
-(8, 2, '87560070', 'Hofner Icon', 'Sr.'),
-(9, 3, '87560080', 'Ludwig 5-piece Drum Set with Cymbals', 'Sr.'),
-(10, 3, '87560900', 'Tama 5-Piece Drum Set with Cymbals', 'Sr.');
+(1, 1, '87560000', 'Greg Peterson', 23),
+(2, 1, '87560010', 'Paul George', 22),
+(3, 1, '87560020', 'Bill Cosby', 20),
+(4, 1, '87560030', 'Rick Sanchez', 21),
+(5, 1, '87560040', 'Donald Trump', 24),
+(6, 1, '87560050', 'Eric Cartman', 28),
+(7, 2, '87560060', 'David Luiz', 21),
+(8, 2, '87560070', 'George Lopez', 20),
+(9, 3, '87560080', 'Chris Tucker', 19),
+(10, 3, '87560900', 'Dave Chappelle', 18);
 
 -- create the users and grant priveleges to those users
 GRANT SELECT, INSERT, DELETE, UPDATE

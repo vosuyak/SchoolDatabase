@@ -61,7 +61,7 @@ require_once('php/database.php');
 
         <aside>
             <div class="schools-title">
-                <h2>SCHOOLS</h2>
+                <h2>Class Rooms</h2>
             </div>
             <nav>
                 <ul>
@@ -83,7 +83,7 @@ require_once('php/database.php');
                 <tr>
                     <th>Ulid</th>
                     <th>Name</th>
-                    <th class="right">Year</th>
+                    <th class="right">Age</th>
                     <th></th>
                 </tr>
 
@@ -108,6 +108,5 @@ require_once('php/database.php');
             <button class="list-btn btn"><a href="room_list.php">List rooms</a></button>        
         </section>
     </main>
-        <?php include 'php/footer.php';?>
     </body>
 </html>
